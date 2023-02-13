@@ -81,9 +81,10 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="RefManager" Type="Folder">
-			<Item Name="TagDB RefManager.lvlib" Type="Library" URL="../src/Util_RefMgr/TagDB RefManager.lvlib"/>
+			<Item Name="TagDB RefManager.lvlib" Type="Library" URL="../src/RefManager/TagDB RefManager.lvlib"/>
 			<Item Name="dir.mnu" Type="Document" URL="../src/Util_RefMgr/dir.mnu"/>
 		</Item>
+		<Item Name="LabVIEW-TagDB-RefMgr.vipb" Type="Document" URL="../LabVIEW-TagDB-RefMgr.vipb"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
@@ -91,35 +92,14 @@
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="TagDB-Obtain.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/API/TagDB-Obtain.vi"/>
-				<Item Name="TagDB.ctl" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Typedef/TagDB.ctl"/>
-				<Item Name="AppendPrivateToken.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/URL/AppendPrivateToken.vi"/>
-				<Item Name="TagDB-Write.vim" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/API/TagDB-Write.vim"/>
-				<Item Name="data-Write.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/DataAccess/data-Write.vi"/>
-				<Item Name="_NameCacher.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/DataAccess/_NameCacher.vi"/>
-				<Item Name="_datatypeChecker.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/DataAccess/_datatypeChecker.vi"/>
-				<Item Name="_[error50000]Invalid DB REF.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/Error/_[error50000]Invalid DB REF.vi"/>
-				<Item Name="TagDB Ref to DVR.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/DataAccess/TagDB Ref to DVR.vi"/>
-				<Item Name="buildURL.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/URL/buildURL.vi"/>
-				<Item Name="_refNumType.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/DataType/_refNumType.vi"/>
-				<Item Name="isPrivateURL.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/URL/isPrivateURL.vi"/>
-				<Item Name="_dataType.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/DataType/_dataType.vi"/>
-				<Item Name="_VIServerRefType.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/DataType/_VIServerRefType.vi"/>
-				<Item Name="_Build Error Cluster.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/Error/_Build Error Cluster.vi"/>
-				<Item Name="TagDB-Read By RegExp.vim" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/API/TagDB-Read By RegExp.vim"/>
-				<Item Name="_Clear Errors.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/Error/_Clear Errors.vi"/>
-				<Item Name="TagDB-Read.vim" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/API/TagDB-Read.vim"/>
-				<Item Name="_[error50002]Invalid DataType.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/Error/_[error50002]Invalid DataType.vi"/>
-				<Item Name="TRIM-BOTH-SPACE.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/URL/TRIM-BOTH-SPACE.vi"/>
-				<Item Name="TagDB-Status.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/API/TagDB-Status.vi"/>
-				<Item Name="TagDB dbChanged.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/Change Detector/TagDB dbChanged.vi"/>
-				<Item Name="TagDB-Delete.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/API/TagDB-Delete.vi"/>
-				<Item Name="_[error50001]Can&apos;t Found Value.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/_Support/Error/_[error50001]Can&apos;t Found Value.vi"/>
-				<Item Name="TagDB-List.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/API/TagDB-List.vi"/>
-				<Item Name="TagDB-Release.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/API/TagDB-Release.vi"/>
+				<Item Name="TagDB.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/TagDB.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">

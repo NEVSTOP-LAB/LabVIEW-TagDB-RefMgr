@@ -46,3 +46,4 @@ ipch/
 Storage
 _Ignore
 Build
+/vip/*.vip

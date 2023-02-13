@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <XNode LVVersion="17008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">RefManager(dev).lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../../RefManager(dev).lvlib</Property>
+	<Property Name="NI.Lib.ContainingLib" Type="Str">TagDB RefManager.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../../TagDB RefManager.lvlib</Property>
 	<Property Name="NI.Lib.Description" Type="Str">v1.1 Add updateState2 ability</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">&amp;Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,5!!!*Q(C=T:;R&lt;B."%)&lt;H%!5&amp;D26K&amp;#RYA'D3IQ/8##KXF0-+&lt;KV,#L`#F"2J8..%LCS1E'"?Q27^*:17;@G]NW@(M5W11B#\G@0?0\-TX_XOH3+3WS/2BZ*O;`,&lt;&gt;P`_D,#[N!0*NLFPR3,H@#G698:U]UOJV06$]UP-_J,70^@]X8X["]``"_NT^`U\/+HT6[7F0.LH&lt;RUJ"WRSL0U&lt;2^8'JNX[G`Q\`CZ`]2XQ&lt;]8M_EPS&gt;-$@)O3YN/OPNPRJDX]L@^LT@*NWU\]PRYZ`XR\&gt;_8Q1-\\^%.VP%[G[6TIQRQT4^L5.^%!0^%!0^%"X&gt;%&gt;X&gt;%&gt;X&gt;%=X&gt;%-X&gt;%-X&gt;%.8&gt;%68&gt;%68&gt;/W_#/C#,OCC_3U0CA?&amp;AK2"AC!9&amp;!EO!5`!%`!%0.R+Q"0Q"$Q"4]"$C!1]!5`!%`!%0%S4A#@A#8A#HI#(6*EE=E?(*_!BP4A]$I`$Y`!Y0*15B]="=)IZC:UE9)DD&gt;!9/D]0D]$!5B]@B=8A=(I=(NTA]$I`$Y`!Y0%T*K_+::N82Y3'.'$Q'D]&amp;D]"A]J";$R_!R?!Q?AY&gt;S9P!90!;%5&gt;")$I)9EYQ!Y]&lt;A-8DY%90(Y$&amp;Y$"[$"V@?)=MLM[*:&gt;82Y&amp;"[&amp;2_&amp;2?"1?5ID#I`!I0!K0QE.;58A5(I6(Y6&amp;Y+#5+D]+D]#AA3F(+CZ*-G;A%+9,#QV]_,:JXS4/*ZFZ?T@;A3DG!5A[7F!-DZ3")W7!J'S&gt;F1[1MN*1&amp;F,)Q5BZ9SI.)!:237%J#+9'SZ,L!:NA5GW!D&lt;)A.M$\77UX^SY(,Z6)7CY8-:D/:4K=SG5RE."L*=$C5Q7!A`8Z@?LX?_GNV4'^&lt;V8W8RISPW^8FU?88:R^@8*U-_8VS]?X$U=8.G'\?7@J:.&gt;6ZV&lt;T_-G__@[\0@JT8T;N"X1S?V]W&lt;U\JZ`\:OHL[LG]?H=W,HY_.0^@BFGH=Z`I^PITRI`QP:L.%P"EU#XQ!!!!!</Property>

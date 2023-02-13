@@ -81,63 +81,40 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="RefManager" Type="Folder">
-			<Item Name="RefManager(dev).lvlib" Type="Library" URL="../src/Util_RefMgr/RefManager(dev).lvlib"/>
+			<Item Name="TagDB RefManager.lvlib" Type="Library" URL="../src/Util_RefMgr/TagDB RefManager.lvlib"/>
 			<Item Name="dir.mnu" Type="Document" URL="../src/Util_RefMgr/dir.mnu"/>
 		</Item>
+		<Item Name="Control 3.ctl" Type="VI" URL="../Control 3.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="NI_XNodeSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/XNodeSupport/NI_XNodeSupport.lvlib"/>
-				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
-				<Item Name="Notifier SRdB command.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/notifier.llb/Notifier SRdB command.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="TagDB.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/TagDB.lvlib"/>
 				<Item Name="_Build Error Cluster.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Error/_Build Error Cluster.vi"/>
 				<Item Name="tagDB_Def.ctl" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/tagDB_Def.ctl"/>
-				<Item Name="_setAnything.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Access/_setAnything.vi"/>
-				<Item Name="_Clear Errors.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Error/_Clear Errors.vi"/>
-				<Item Name="tagDB dbChanged.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Properties/tagDB dbChanged.vi"/>
 				<Item Name="tagDB getTags.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Properties/tagDB getTags.vi"/>
 				<Item Name="_Node.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Access/_Node.vi"/>
-				<Item Name="_Cast TagDB Ref to DVR.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Private/_Cast TagDB Ref to DVR.vi"/>
+				<Item Name="_variant.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Access/_variant.vi"/>
+				<Item Name="xnode_ConnectPane.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_global/xnode_support/xnode_ConnectPane.vi"/>
+				<Item Name="GenCodeScripts-ReplaceContent.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_global/xnode_support/GenCodeScripts-ReplaceContent.vi"/>
+				<Item Name="xnode_ShowDiagram.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_global/xnode_support/xnode_ShowDiagram.vi"/>
+				<Item Name="tagDB_delValue.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/tagDB_delValue.vi"/>
+				<Item Name="tagDB_Status.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/tagDB_Status.vi"/>
+				<Item Name="Data Changed - First Call Included_nevstop.vim" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Comparison/Data Changed - First Call Included_nevstop.vim"/>
+				<Item Name="TagDB.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/TagDB.lvlib"/>
 			</Item>
+			<Item Name="refMgr_get_Template.vi" Type="VI" URL="../src/Util_RefMgr/_Support/Template/refMgr_get_Template.vi"/>
+			<Item Name="refMgr_get_Single_Template.vi" Type="VI" URL="../src/Util_RefMgr/_Support/Template/refMgr_get_Single_Template.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="build" Type="Source Distribution">
@@ -173,7 +150,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{79DF5C9D-E0C3-40C0-AF4E-607A2191F516}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RefManager/RefManager(dev).lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/RefManager/TagDB RefManager.lvlib</Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].newName" Type="Str">RefManager.lvlib</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
@@ -186,21 +163,21 @@
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/RefManager/RefManager(dev).lvlib/Global</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/RefManager/TagDB RefManager.lvlib/Global</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/RefManager/RefManager(dev).lvlib/Support/private</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/RefManager/TagDB RefManager.lvlib/Support/private</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">1</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/RefManager/RefManager(dev).lvlib/Function</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/RefManager/TagDB RefManager.lvlib/API</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">1</Property>

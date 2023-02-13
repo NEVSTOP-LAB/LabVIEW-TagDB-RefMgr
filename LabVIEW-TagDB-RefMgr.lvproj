@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="17008000">
 	<Property Name="CCSymbols" Type="Str">SPECIAL,TRUE;</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -77,12 +77,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Example" Type="Folder" URL="../Example">
+		<Item Name="Example" Type="Folder" URL="../src/Example">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="RefManager" Type="Folder">
-			<Item Name="RefManager(dev).lvlib" Type="Library" URL="../Util_RefMgr/RefManager(dev).lvlib"/>
-			<Item Name="dir.mnu" Type="Document" URL="../Util_RefMgr/dir.mnu"/>
+			<Item Name="RefManager(dev).lvlib" Type="Library" URL="../src/Util_RefMgr/RefManager(dev).lvlib"/>
+			<Item Name="dir.mnu" Type="Document" URL="../src/Util_RefMgr/dir.mnu"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -125,9 +125,18 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="Notifier SRdB command.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/notifier.llb/Notifier SRdB command.ctl"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="TagDB.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/TagDB.lvlib"/>
+				<Item Name="_Build Error Cluster.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Error/_Build Error Cluster.vi"/>
+				<Item Name="tagDB_Def.ctl" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/tagDB_Def.ctl"/>
+				<Item Name="_setAnything.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Access/_setAnything.vi"/>
+				<Item Name="_Clear Errors.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Error/_Clear Errors.vi"/>
+				<Item Name="tagDB dbChanged.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Properties/tagDB dbChanged.vi"/>
+				<Item Name="tagDB getTags.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Properties/tagDB getTags.vi"/>
+				<Item Name="_Node.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Access/_Node.vi"/>
+				<Item Name="_Cast TagDB Ref to DVR.vi" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/Core/_Support/Private/_Cast TagDB Ref to DVR.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -135,7 +144,6 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{EEA3165B-EE2A-411C-B64F-76AF07119A33}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">build</Property>
-				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>

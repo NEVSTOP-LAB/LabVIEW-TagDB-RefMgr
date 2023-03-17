@@ -309,6 +309,7 @@
 				<Item Name="Filter 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Filter 1D Array__ogtk.vi"/>
 				<Item Name="Valid Refnum_nevstop.vim" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Application/Valid Refnum_nevstop.vim"/>
 			</Item>
+			<Item Name="String to Bool.vi" Type="VI" URL="../src/RefManager/_Opers/_support/String to Bool.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="build" Type="Source Distribution">

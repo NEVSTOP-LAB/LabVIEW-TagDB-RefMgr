@@ -5,11 +5,22 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="Control" Type="Folder">
+		<Item Name="_CtrlVIs.vi" Type="VI" URL="../Control/_CtrlVIs.vi"/>
 		<Item Name="Ctrls_Disable.vi" Type="VI" URL="../Control/Ctrls_Disable.vi"/>
 		<Item Name="Ctrls_Enable.vi" Type="VI" URL="../Control/Ctrls_Enable.vi"/>
 		<Item Name="Ctrls_Grayout.vi" Type="VI" URL="../Control/Ctrls_Grayout.vi"/>
 		<Item Name="Ctrls_ReinitializeToDefault.vi" Type="VI" URL="../Control/Ctrls_ReinitializeToDefault.vi"/>
 		<Item Name="Ctrls_SetValue.vi" Type="VI" URL="../Control/Ctrls_SetValue.vi"/>
+	</Item>
+	<Item Name="Menu" Type="Folder">
+		<Item Name="_MenuVIs.vi" Type="VI" URL="../Menu/_MenuVIs.vi"/>
+		<Item Name="Menu_Check.vi" Type="VI" URL="../Menu/Menu_Check.vi"/>
+		<Item Name="Menu_Disable.vi" Type="VI" URL="../Menu/Menu_Disable.vi"/>
+		<Item Name="Menu_Enable.vi" Type="VI" URL="../Menu/Menu_Enable.vi"/>
+		<Item Name="Menu_ItemName.vi" Type="VI" URL="../Menu/Menu_ItemName.vi"/>
+		<Item Name="Menu_ToggleCheck.vi" Type="VI" URL="../Menu/Menu_ToggleCheck.vi"/>
+		<Item Name="Menu_ToggleEnable.vi" Type="VI" URL="../Menu/Menu_ToggleEnable.vi"/>
+		<Item Name="Menu_unCheck.vi" Type="VI" URL="../Menu/Menu_unCheck.vi"/>
 	</Item>
 	<Item Name="VI" Type="Folder">
 		<Item Name="VI_ReinitializeAllToDefault.vi" Type="VI" URL="../VI/VI_ReinitializeAllToDefault.vi"/>

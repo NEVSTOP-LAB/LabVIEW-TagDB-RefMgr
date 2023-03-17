@@ -48,6 +48,10 @@
 			<Item Name="_GenerateStateMap.vi" Type="VI" URL="../_Support/Expression/_GenerateStateMap.vi"/>
 			<Item Name="_Operate.vi" Type="VI" URL="../_Support/Expression/_Operate.vi"/>
 		</Item>
+		<Item Name="Menu" Type="Folder">
+			<Item Name="TagDB Refmgr-Register Menu.vi" Type="VI" URL="../_Support/Menu/TagDB Refmgr-Register Menu.vi"/>
+			<Item Name="List All Menus.vi" Type="VI" URL="../_Support/Menu/List All Menus.vi"/>
+		</Item>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>

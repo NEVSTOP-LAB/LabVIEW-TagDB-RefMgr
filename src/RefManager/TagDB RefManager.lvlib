@@ -43,14 +43,29 @@
 			<Item Name="[-50011] Instance Not Found.vi" Type="VI" URL="../_Support/Error/[-50011] Instance Not Found.vi"/>
 			<Item Name="[-50012] Front Panel is removed in Build Spec.vi" Type="VI" URL="../_Support/Error/[-50012] Front Panel is removed in Build Spec.vi"/>
 		</Item>
+		<Item Name="Expression" Type="Folder">
+			<Item Name="_GenerateExecuteExpression.vi" Type="VI" URL="../_Support/Expression/_GenerateExecuteExpression.vi"/>
+			<Item Name="_GenerateStateMap.vi" Type="VI" URL="../_Support/Expression/_GenerateStateMap.vi"/>
+			<Item Name="_Operate.vi" Type="VI" URL="../_Support/Expression/_Operate.vi"/>
+		</Item>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Expression" Type="Folder">
+			<Item Name="TagDB Refmgr-Auto Refresh.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Auto Refresh.vi"/>
+			<Item Name="TagDB Refmgr-Execute Expression.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Execute Expression.vi"/>
+			<Item Name="TagDB Refmgr-Parse Rules.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Parse Rules.vi"/>
+			<Item Name="TagDB Refmgr-Refresh.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Refresh.vi"/>
+		</Item>
 		<Item Name="TagDB Refmgr-Register.vi" Type="VI" URL="../TagDB Refmgr-Register.vi"/>
 		<Item Name="TagDB Refmgr-Get.vim" Type="VI" URL="../TagDB Refmgr-Get.vim"/>
 		<Item Name="TagDB Refmgr-Get Array.vim" Type="VI" URL="../TagDB Refmgr-Get Array.vim"/>
 		<Item Name="TagDB Refmgr-Reset.vi" Type="VI" URL="../TagDB Refmgr-Reset.vi"/>
 		<Item Name="TagDB Refmgr-Remove.vi" Type="VI" URL="../TagDB Refmgr-Remove.vi"/>
 		<Item Name="TagDB Refmgr-unRegister.vi" Type="VI" URL="../TagDB Refmgr-unRegister.vi"/>
+	</Item>
+	<Item Name="Typedef" Type="Folder">
+		<Item Name="RefMgr-StateChangeType.ctl" Type="VI" URL="../Typedef/RefMgr-StateChangeType.ctl"/>
+		<Item Name="RefMgr-Logic-State.ctl" Type="VI" URL="../Typedef/RefMgr-Logic-State.ctl"/>
 	</Item>
 </Library>

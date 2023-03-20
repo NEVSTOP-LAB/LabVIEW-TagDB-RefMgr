@@ -52,6 +52,12 @@
 			<Item Name="TagDB Refmgr-Register Menu.vi" Type="VI" URL="../_Support/Menu/TagDB Refmgr-Register Menu.vi"/>
 			<Item Name="List All Menus.vi" Type="VI" URL="../_Support/Menu/List All Menus.vi"/>
 		</Item>
+		<Item Name="UISync" Type="Folder">
+			<Item Name="_Publish DP Indicators(VI).vi" Type="VI" URL="../_Support/UISync/_Publish DP Indicators(VI).vi"/>
+			<Item Name="_Publish DP Indicators(Refmgr).vi" Type="VI" URL="../_Support/UISync/_Publish DP Indicators(Refmgr).vi"/>
+			<Item Name="_Pull Controls Value to DPs(VI).vi" Type="VI" URL="../_Support/UISync/_Pull Controls Value to DPs(VI).vi"/>
+			<Item Name="_Pull Controls Value to DPs(Refmgr).vi" Type="VI" URL="../_Support/UISync/_Pull Controls Value to DPs(Refmgr).vi"/>
+		</Item>
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
@@ -61,9 +67,13 @@
 			<Item Name="TagDB Refmgr-Parse Rules.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Parse Rules.vi"/>
 			<Item Name="TagDB Refmgr-Refresh.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Refresh.vi"/>
 		</Item>
+		<Item Name="UISync" Type="Folder">
+			<Item Name="Pull Controls Value to DPs.vi" Type="VI" URL="../UISyncAPI/Pull Controls Value to DPs.vi"/>
+			<Item Name="Publish DP Indicators.vi" Type="VI" URL="../UISyncAPI/Publish DP Indicators.vi"/>
+		</Item>
 		<Item Name="TagDB Refmgr-Register.vi" Type="VI" URL="../TagDB Refmgr-Register.vi"/>
 		<Item Name="TagDB Refmgr-Get.vim" Type="VI" URL="../TagDB Refmgr-Get.vim"/>
-		<Item Name="TagDB Refmgr-Get Array.vim" Type="VI" URL="../TagDB Refmgr-Get Array.vim"/>
+		<Item Name="TagDB Refmgr-Get Array.vim" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/RefManager/TagDB Refmgr-Get Array.vim"/>
 		<Item Name="TagDB Refmgr-Reset.vi" Type="VI" URL="../TagDB Refmgr-Reset.vi"/>
 		<Item Name="TagDB Refmgr-Remove.vi" Type="VI" URL="../TagDB Refmgr-Remove.vi"/>
 		<Item Name="TagDB Refmgr-unRegister.vi" Type="VI" URL="../TagDB Refmgr-unRegister.vi"/>

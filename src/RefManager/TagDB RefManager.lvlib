@@ -47,6 +47,7 @@
 			<Item Name="_GenerateExecuteExpression.vi" Type="VI" URL="../_Support/Expression/_GenerateExecuteExpression.vi"/>
 			<Item Name="_GenerateStateMap.vi" Type="VI" URL="../_Support/Expression/_GenerateStateMap.vi"/>
 			<Item Name="_Operate.vi" Type="VI" URL="../_Support/Expression/_Operate.vi"/>
+			<Item Name="_StrTable to LogicCfg.vi" Type="VI" URL="../_Support/Expression/_StrTable to LogicCfg.vi"/>
 		</Item>
 		<Item Name="Menu" Type="Folder">
 			<Item Name="TagDB Refmgr-Register Menu.vi" Type="VI" URL="../_Support/Menu/TagDB Refmgr-Register Menu.vi"/>
@@ -62,6 +63,7 @@
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Expression" Type="Folder">
+			<Item Name="TagDB Refmgr-Load Rule csv.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Load Rule csv.vi"/>
 			<Item Name="TagDB Refmgr-Auto Refresh.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Auto Refresh.vi"/>
 			<Item Name="TagDB Refmgr-Execute Expression.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Execute Expression.vi"/>
 			<Item Name="TagDB Refmgr-Parse Rules.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Parse Rules.vi"/>
@@ -73,7 +75,7 @@
 		</Item>
 		<Item Name="TagDB Refmgr-Register.vi" Type="VI" URL="../TagDB Refmgr-Register.vi"/>
 		<Item Name="TagDB Refmgr-Get.vim" Type="VI" URL="../TagDB Refmgr-Get.vim"/>
-		<Item Name="TagDB Refmgr-Get Array.vim" Type="VI" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/RefManager/TagDB Refmgr-Get Array.vim"/>
+		<Item Name="TagDB Refmgr-Get Array.vim" Type="VI" URL="../TagDB Refmgr-Get Array.vim"/>
 		<Item Name="TagDB Refmgr-Reset.vi" Type="VI" URL="../TagDB Refmgr-Reset.vi"/>
 		<Item Name="TagDB Refmgr-Remove.vi" Type="VI" URL="../TagDB Refmgr-Remove.vi"/>
 		<Item Name="TagDB Refmgr-unRegister.vi" Type="VI" URL="../TagDB Refmgr-unRegister.vi"/>

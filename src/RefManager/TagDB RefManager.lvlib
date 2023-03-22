@@ -63,6 +63,7 @@
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Expression" Type="Folder">
+			<Item Name="TagDB Read States.vi" Type="VI" URL="../ExpressionAPI/TagDB Read States.vi"/>
 			<Item Name="TagDB Refmgr-Load Rule csv.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Load Rule csv.vi"/>
 			<Item Name="TagDB Refmgr-Auto Refresh.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Auto Refresh.vi"/>
 			<Item Name="TagDB Refmgr-Execute Expression.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Execute Expression.vi"/>

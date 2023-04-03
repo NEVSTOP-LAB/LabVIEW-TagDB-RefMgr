@@ -73,6 +73,7 @@
 		<Item Name="UISync" Type="Folder">
 			<Item Name="Pull Controls Value to DPs.vi" Type="VI" URL="../UISyncAPI/Pull Controls Value to DPs.vi"/>
 			<Item Name="Publish DP Indicators.vi" Type="VI" URL="../UISyncAPI/Publish DP Indicators.vi"/>
+			<Item Name="TagDB Refmgr-Defer Panel Update.vi" Type="VI" URL="../UISyncAPI/TagDB Refmgr-Defer Panel Update.vi"/>
 		</Item>
 		<Item Name="TagDB Refmgr-Register.vi" Type="VI" URL="../TagDB Refmgr-Register.vi"/>
 		<Item Name="TagDB Refmgr-Get.vim" Type="VI" URL="../TagDB Refmgr-Get.vim"/>

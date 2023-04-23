@@ -31,7 +31,9 @@ jobs:
         LabVIEW_Version: 2017
         NEVSTOP-FTP-IP: ${{ secrets.VIPM_FTP_IP }}
         NEVSTOP-FTP-PORT: ${{ secrets.VIPM_FTP_PORT }}
-        PackageName: LabVIEW-TagDB
+        PackageName: NEVSTOP-3rdParty-Dependencies
+        PackageName1: NEVSTOP-Programming-Palette
+        PackageName2: LabVIEW-TagDB
 
   # This workflow contains a single job called "build"
   Check_Broken_VIs:
@@ -42,6 +44,7 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 

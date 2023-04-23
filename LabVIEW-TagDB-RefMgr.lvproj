@@ -172,8 +172,8 @@
 				<Item Name="Strip Path - Arrays__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path - Arrays__ogtk.vi"/>
 				<Item Name="Strip Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Strip Path__ogtk.vi"/>
 				<Item Name="Current VIs Parent Directory__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Current VIs Parent Directory__ogtk.vi"/>
+				<Item Name="String to Boolean_nevstop.vi" Type="VI" URL="/&lt;userlib&gt;/NEVSTOP-Programming-Palette/Comparison/String to Boolean_nevstop.vi"/>
 			</Item>
-			<Item Name="String to Bool.vi" Type="VI" URL="../src/RefManager/_Opers/_support/String to Bool.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="build" Type="Source Distribution">

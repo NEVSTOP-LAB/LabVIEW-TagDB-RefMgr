@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2023-02-14 00:02:47" Creator="Administrator" Comments="" ID="71585cb524e1e172854952818c567929">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2015-10-20 15:34:05" Modified_Date="2023-04-23 11:06:15" Creator="Administrator" Comments="" ID="cf25022ca3b9a90c2fa3a2d420a82a51">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_TagDB_RefMgr</Package_File_Name>
     <Library_Version>3.0.0.4</Library_Version>
@@ -17,6 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
+      <Additional_External_Dependencies>nevstop_programming_palette &gt;=2023.4.23.105721</Additional_External_Dependencies>
       <Additional_External_Dependencies>nevstop_tagdb_library &gt;=2023.2.13.235253</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>

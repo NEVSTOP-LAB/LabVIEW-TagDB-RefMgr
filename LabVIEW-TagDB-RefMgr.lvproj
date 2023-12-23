@@ -87,8 +87,12 @@
 			</Item>
 		</Item>
 		<Item Name="src" Type="Folder">
-			<Item Name="ReferenceManager" Type="Folder" URL="../src/Example/ReferenceManager">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Example" Type="Folder">
+				<Item Name="refMgr_Example1.vi" Type="VI" URL="../src/Example/refMgr_Example1.vi"/>
+				<Item Name="refMgr_Example2.vi" Type="VI" URL="../src/Example/refMgr_Example2.vi"/>
+				<Item Name="refMgr_Example3.vi" Type="VI" URL="../src/Example/refMgr_Example3.vi"/>
+				<Item Name="refMgr_Example4.vi" Type="VI" URL="../src/Example/refMgr_Example4.vi"/>
+				<Item Name="SubVI.vi" Type="VI" URL="../src/Example/SubVI.vi"/>
 			</Item>
 			<Item Name="TagDB RefManager.lvlib" Type="Library" URL="../src/RefManager/TagDB RefManager.lvlib"/>
 			<Item Name="ViAnalyzer.cfg" Type="Document" URL="../src/ViAnalyzer.cfg"/>

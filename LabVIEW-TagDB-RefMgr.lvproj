@@ -90,27 +90,7 @@
 			<Item Name="ReferenceManager" Type="Folder" URL="../src/Example/ReferenceManager">
 				<Property Name="NI.DISK" Type="Bool">true</Property>
 			</Item>
-			<Item Name="RefManager" Type="Folder">
-				<Item Name="_Support" Type="Folder">
-					<Item Name="BlackList" Type="Folder"/>
-					<Item Name="Error" Type="Folder"/>
-					<Item Name="Expression" Type="Folder"/>
-					<Item Name="Menu" Type="Folder"/>
-					<Item Name="Refnum Operation" Type="Folder">
-						<Item Name="VI" Type="Folder"/>
-					</Item>
-					<Item Name="UISync" Type="Folder"/>
-				</Item>
-				<Item Name="ExpressionAPI" Type="Folder">
-					<Item Name="dir.mnu" Type="Document" URL="../src/RefManager/ExpressionAPI/dir.mnu"/>
-				</Item>
-				<Item Name="Typedef" Type="Folder"/>
-				<Item Name="UISyncAPI" Type="Folder">
-					<Item Name="dir.mnu" Type="Document" URL="../src/RefManager/UISyncAPI/dir.mnu"/>
-				</Item>
-				<Item Name="dir.mnu" Type="Document" URL="../src/RefManager/dir.mnu"/>
-				<Item Name="TagDB RefManager.lvlib" Type="Library" URL="../src/RefManager/TagDB RefManager.lvlib"/>
-			</Item>
+			<Item Name="TagDB RefManager.lvlib" Type="Library" URL="../src/RefManager/TagDB RefManager.lvlib"/>
 			<Item Name="ViAnalyzer.cfg" Type="Document" URL="../src/ViAnalyzer.cfg"/>
 		</Item>
 		<Item Name="LabVIEW-TagDB-RefMgr.vipb" Type="Document" URL="../LabVIEW-TagDB-RefMgr.vipb"/>
@@ -401,7 +381,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{79DF5C9D-E0C3-40C0-AF4E-607A2191F516}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/src/RefManager/TagDB RefManager.lvlib</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[1].newName" Type="Str">RefManager.lvlib</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
@@ -428,7 +408,7 @@
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/src/RefManager/TagDB RefManager.lvlib/API</Property>
+				<Property Name="Source[5].itemID" Type="Ref"></Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">1</Property>

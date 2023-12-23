@@ -20,6 +20,10 @@
 		<Item Name="_testRefMgr.lvlib" Type="Friended Library" URL="../_test/_testRefMgr.lvlib"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
+		<Item Name="Common" Type="Folder">
+			<Item Name="Safely Close Reference - tagdb refmgr.vim" Type="VI" URL="../_Support/Common/Safely Close Reference - tagdb refmgr.vim"/>
+			<Item Name="Changed Data Filter(FNiN) - tagdb refmgr.vim" Type="VI" URL="../_Support/Common/Changed Data Filter(FNiN) - tagdb refmgr.vim"/>
+		</Item>
 		<Item Name="Blacklist" Type="Folder">
 			<Item Name="_blacklist.vi" Type="VI" URL="../_Support/BlackList/_blacklist.vi"/>
 			<Item Name="_InBlacklist.vi" Type="VI" URL="../_Support/BlackList/_InBlacklist.vi"/>
@@ -43,12 +47,6 @@
 			<Item Name="[-50011] Instance Not Found.vi" Type="VI" URL="../_Support/Error/[-50011] Instance Not Found.vi"/>
 			<Item Name="[-50012] Front Panel is removed in Build Spec.vi" Type="VI" URL="../_Support/Error/[-50012] Front Panel is removed in Build Spec.vi"/>
 		</Item>
-		<Item Name="Expression" Type="Folder">
-			<Item Name="_GenerateExecuteExpression.vi" Type="VI" URL="../_Support/Expression/_GenerateExecuteExpression.vi"/>
-			<Item Name="_GenerateStateMap.vi" Type="VI" URL="../_Support/Expression/_GenerateStateMap.vi"/>
-			<Item Name="_Operate.vi" Type="VI" URL="../_Support/Expression/_Operate.vi"/>
-			<Item Name="_StrTable to LogicCfg.vi" Type="VI" URL="../_Support/Expression/_StrTable to LogicCfg.vi"/>
-		</Item>
 		<Item Name="Menu" Type="Folder">
 			<Item Name="TagDB Refmgr-Register Menu.vi" Type="VI" URL="../_Support/Menu/TagDB Refmgr-Register Menu.vi"/>
 			<Item Name="List All Menus.vi" Type="VI" URL="../_Support/Menu/List All Menus.vi"/>
@@ -62,14 +60,6 @@
 	</Item>
 	<Item Name="API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="Expression" Type="Folder">
-			<Item Name="TagDB Read States.vi" Type="VI" URL="../ExpressionAPI/TagDB Read States.vi"/>
-			<Item Name="TagDB Refmgr-Load Rule csv.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Load Rule csv.vi"/>
-			<Item Name="TagDB Refmgr-Auto Refresh.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Auto Refresh.vi"/>
-			<Item Name="TagDB Refmgr-Execute Expression.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Execute Expression.vi"/>
-			<Item Name="TagDB Refmgr-Parse Rules.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Parse Rules.vi"/>
-			<Item Name="TagDB Refmgr-Refresh.vi" Type="VI" URL="../ExpressionAPI/TagDB Refmgr-Refresh.vi"/>
-		</Item>
 		<Item Name="UISync" Type="Folder">
 			<Item Name="Pull Controls Value to DPs.vi" Type="VI" URL="../UISyncAPI/Pull Controls Value to DPs.vi"/>
 			<Item Name="Publish DP Indicators.vi" Type="VI" URL="../UISyncAPI/Publish DP Indicators.vi"/>

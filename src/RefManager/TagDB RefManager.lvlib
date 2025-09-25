@@ -49,6 +49,7 @@
 		<Item Name="Common" Type="Folder">
 			<Item Name="Safely Close Reference - tagdb refmgr.vim" Type="VI" URL="../_Support/Common/Safely Close Reference - tagdb refmgr.vim"/>
 			<Item Name="Changed Data Filter(FNiN) - tagdb refmgr.vim" Type="VI" URL="../_Support/Common/Changed Data Filter(FNiN) - tagdb refmgr.vim"/>
+			<Item Name="Search in Array.vi" Type="VI" URL="../_Support/Common/Search in Array.vi"/>
 		</Item>
 		<Item Name="Blacklist" Type="Folder">
 			<Item Name="_blacklist.vi" Type="VI" URL="../_Support/BlackList/_blacklist.vi"/>

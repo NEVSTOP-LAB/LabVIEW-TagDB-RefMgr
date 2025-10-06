@@ -99,5 +99,4 @@
 		<Item Name="TagDB Refmgr-Remove.vi" Type="VI" URL="../TagDB Refmgr-Remove.vi"/>
 		<Item Name="TagDB Refmgr-unRegister.vi" Type="VI" URL="../TagDB Refmgr-unRegister.vi"/>
 	</Item>
-	<Item Name="Typedef" Type="Folder"/>
 </Library>

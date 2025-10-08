@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2015-10-20 15:34:05" Modified_Date="2025-09-29 09:53:19" Creator="Administrator" Comments="" ID="ccd5093ddc1a510a03c7afbdc9a03300">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2015-10-20 15:34:05" Modified_Date="2025-10-08 22:11:53" Creator="Administrator" Comments="" ID="3aabe1ae1de423ba6c6ba8f0f0c7397b">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_TagDB_RefMgr</Package_File_Name>
     <Library_Version>3.1.1.5</Library_Version>
@@ -30,7 +30,7 @@
     <VI_Package_Configuration_File>LabVIEW-TagDB-RefMgr.vipc</VI_Package_Configuration_File>
     <Description>
       <One_Line_Description_Summary>LabVIEW TagDB Reference Manager Library</One_Line_Description_Summary>
-      <Description># LabVIEW TagDB Reference Manager Library
+      <Description>NEVSTOP TagDB Reference Manager Library
 
 </Description>
       <Copyright/>
@@ -193,6 +193,7 @@
       <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>false</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
+      <install_into_global_environment>false</install_into_global_environment>
     </LabVIEW>
     <VI_Docs>
       <Edit_VI_Description>true</Edit_VI_Description>

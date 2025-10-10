@@ -67,6 +67,7 @@
 			<Item Name="_setOtherRef.vi" Type="VI" URL="../_Support/Refnum Operation/_setOtherRef.vi"/>
 			<Item Name="_setControlRef.vi" Type="VI" URL="../_Support/Refnum Operation/_setControlRef.vi"/>
 			<Item Name="_setRef.vi" Type="VI" URL="../_Support/Refnum Operation/_setRef.vi"/>
+			<Item Name="_setDecorationRef.vi" Type="VI" URL="../_Support/Refnum Operation/_setDecorationRef.vi"/>
 			<Item Name="VI Refname.vi" Type="VI" URL="../_Support/Refnum Operation/VI Refname.vi"/>
 		</Item>
 		<Item Name="Error" Type="Folder">

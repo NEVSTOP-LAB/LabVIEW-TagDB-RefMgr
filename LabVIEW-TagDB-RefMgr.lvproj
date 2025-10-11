@@ -98,6 +98,7 @@
 			<Item Name="ViAnalyzer.cfg" Type="Document" URL="../src/ViAnalyzer.cfg"/>
 		</Item>
 		<Item Name="LabVIEW-TagDB-RefMgr.vipb" Type="Document" URL="../LabVIEW-TagDB-RefMgr.vipb"/>
+		<Item Name="refMgr_Example5.vi" Type="VI" URL="../src/Example/refMgr_Example5.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>

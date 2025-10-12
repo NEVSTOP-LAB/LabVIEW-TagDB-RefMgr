@@ -49,6 +49,7 @@
 		<Item Name="Common" Type="Folder">
 			<Item Name="Safely Close Reference - tagdb refmgr.vim" Type="VI" URL="../_Support/Common/Safely Close Reference - tagdb refmgr.vim"/>
 			<Item Name="Changed Data Filter(FNiN) - tagdb refmgr.vim" Type="VI" URL="../_Support/Common/Changed Data Filter(FNiN) - tagdb refmgr.vim"/>
+			<Item Name="Search in Array.vi" Type="VI" URL="../_Support/Common/Search in Array.vi"/>
 		</Item>
 		<Item Name="Blacklist" Type="Folder">
 			<Item Name="_blacklist.vi" Type="VI" URL="../_Support/BlackList/_blacklist.vi"/>
@@ -66,6 +67,7 @@
 			<Item Name="_setOtherRef.vi" Type="VI" URL="../_Support/Refnum Operation/_setOtherRef.vi"/>
 			<Item Name="_setControlRef.vi" Type="VI" URL="../_Support/Refnum Operation/_setControlRef.vi"/>
 			<Item Name="_setRef.vi" Type="VI" URL="../_Support/Refnum Operation/_setRef.vi"/>
+			<Item Name="_setDecorationRef.vi" Type="VI" URL="../_Support/Refnum Operation/_setDecorationRef.vi"/>
 			<Item Name="VI Refname.vi" Type="VI" URL="../_Support/Refnum Operation/VI Refname.vi"/>
 		</Item>
 		<Item Name="Error" Type="Folder">
@@ -98,5 +100,4 @@
 		<Item Name="TagDB Refmgr-Remove.vi" Type="VI" URL="../TagDB Refmgr-Remove.vi"/>
 		<Item Name="TagDB Refmgr-unRegister.vi" Type="VI" URL="../TagDB Refmgr-unRegister.vi"/>
 	</Item>
-	<Item Name="Typedef" Type="Folder"/>
 </Library>

@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2015-10-20 15:34:05" Modified_Date="2026-05-13 13:43:33" Creator="Administrator" Comments="" ID="3553b3d5c6b3b66e0b8b114d6cd20c94">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2015-10-20 15:34:05" Modified_Date="2026-05-13 14:28:16" Creator="Administrator" Comments="" ID="ce94cc623bef8113c8a3626423f1b992">
   <Library_General_Settings>
     <Package_File_Name>NEVSTOP_TagDB_RefMgr</Package_File_Name>
     <Library_Version>3.2.0.5</Library_Version>
@@ -36,8 +36,7 @@
       <Copyright/>
       <Packager>NEVSTOP</Packager>
       <URL>https://github.com/NEVSTOP-LAB</URL>
-      <Release_Notes>[update] update to lv2017 and plan to release to vipm.io
-[fix] #12</Release_Notes>
+      <Release_Notes>[fix] fix UISync API bug</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

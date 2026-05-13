@@ -93,19 +93,21 @@
 				<Item Name="refMgr_Example3.vi" Type="VI" URL="../src/Example/refMgr_Example3.vi"/>
 				<Item Name="refMgr_Example4.vi" Type="VI" URL="../src/Example/refMgr_Example4.vi"/>
 				<Item Name="SubVI.vi" Type="VI" URL="../src/Example/SubVI.vi"/>
+				<Item Name="refMgr_Example5.vi" Type="VI" URL="../src/Example/refMgr_Example5.vi"/>
 			</Item>
-			<Item Name="TagDB RefManager.lvlib" Type="Library" URL="../src/RefManager/TagDB RefManager.lvlib"/>
 			<Item Name="ViAnalyzer.cfg" Type="Document" URL="../src/ViAnalyzer.cfg"/>
+			<Item Name="TagDB RefManager.lvlib" Type="Library" URL="../src/RefManager/TagDB RefManager.lvlib"/>
 		</Item>
 		<Item Name="LabVIEW-TagDB-RefMgr.vipb" Type="Document" URL="../LabVIEW-TagDB-RefMgr.vipb"/>
-		<Item Name="refMgr_Example5.vi" Type="VI" URL="../src/Example/refMgr_Example5.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="TagDB.lvlib" Type="Library" URL="/&lt;userlib&gt;/_NEVSTOP/TagDB/TagDB.lvlib"/>
